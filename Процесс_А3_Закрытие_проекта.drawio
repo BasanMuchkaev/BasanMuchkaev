@@ -1,0 +1,264 @@
+<mxfile host="app.diagrams.net" agent="5.0" version="24.7.17">
+  <diagram name="Закрытие проекта" id="closure-process">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="2000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Заголовок -->
+        <mxCell id="title" value="ПРОЦЕСС А3 - ЗАКРЫТИЕ ПРОЕКТА" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="600" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Начало -->
+        <mxCell id="start" value="НАЧАЛО ЗАКРЫТИЯ&#xa;Реализация завершена" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Определение типа проекта -->
+        <mxCell id="project_type_decision" value="ТИП ПРОЕКТА?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="200" width="180" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- ЛЕВАЯ ВЕТКА - Коммерческий/Имиджевый -->
+        <mxCell id="commercial_path" value="КОММЕРЧЕСКИЙ /&#xa;ИМИДЖЕВЫЙ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="contract_completion" value="А3.2&#xa;ОКОНЧАНИЕ ДОГОВОРА&#xa;ПОДПИСАНИЕ ЗАКРЫВАЮЩИХ&#xa;ДОКУМЕНТОВ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="420" width="140" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- ПРАВАЯ ВЕТКА - Внутренний/Инвестиционный -->
+        <mxCell id="internal_path" value="ВНУТРЕННИЙ /&#xa;ИНВЕСТИЦИОННЫЙ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Проверка НМА -->
+        <mxCell id="nma_decision" value="ФОРМИРОВАЛСЯ НМА&#xa;В ТЕЧЕНИЕ ПРОЕКТА?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="420" width="180" height="80" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="tech_committee_defense" value="А3.1&#xa;ЗАЩИТА РЕЗУЛЬТАТОВ&#xa;НА ТЕХНИЧЕСКОМ КОМИТЕТЕ&#xa;(ОБЯЗАТЕЛЬНО)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="560" width="140" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Слияние веток -->
+        <mxCell id="merge_point" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6c8ebf;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="705" y="700" width="10" height="10" as="geometry" />
+        </mxCell>
+        
+        <!-- А3.3 Утверждение документов на закрытие -->
+        <mxCell id="approve_closure_docs" value="А3.3&#xa;УТВЕРЖДЕНИЕ ДОКУМЕНТОВ&#xa;НА ЗАКРЫТИЕ ПРОЕКТА" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fac090;strokeColor=#FF6D01;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="760" width="160" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Документы на закрытие -->
+        <mxCell id="closure_documents" value="ОБЯЗАТЕЛЬНЫЕ ДОКУМЕНТЫ:&#xa;• Отчёт по закрытию проекта&#xa;• План мероприятий (план-факт анализ)&#xa;• Фактический бюджет проекта&#xa;• Реестр выпущенной документации" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="860" width="460" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- А3.4 Получение виз ДКК -->
+        <mxCell id="quality_visa" value="А3.4&#xa;ПОЛУЧЕНИЕ ВИЗ ДКК&#xa;ПО ВЫПОЛНЕНИЮ НОРМ&#xa;КАЧЕСТВА ДОКУМЕНТАЦИИ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fac090;strokeColor=#FF6D01;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="980" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- А3.5 Архивирование проекта -->
+        <mxCell id="archive_project" value="А3.5&#xa;АРХИВИРОВАНИЕ ПРОЕКТА&#xa;В ИС УТЗ, ПОЛУЧЕНИЕ&#xa;ВИЗЫ ДПУ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fac090;strokeColor=#FF6D01;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1100" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- А3.6 Выпуск приказа о закрытии -->
+        <mxCell id="closure_order" value="А3.6&#xa;ВЫПУСК ПРИКАЗА&#xa;О ЗАКРЫТИИ ПРОЕКТА" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fac090;strokeColor=#FF6D01;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1220" width="160" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- А3.7 Сдача документации в архив -->
+        <mxCell id="archive_documents" value="А3.7&#xa;СДАЧА ДОКУМЕНТАЦИИ&#xa;ПО ПРОЕКТУ В АРХИВ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fac090;strokeColor=#FF6D01;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1320" width="160" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- А3.8 Проектное премирование -->
+        <mxCell id="project_bonus" value="А3.8&#xa;ПРОЕКТНОЕ ПРЕМИРОВАНИЕ&#xa;(ОПЦИОНАЛЬНО)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1420" width="160" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Конец -->
+        <mxCell id="end" value="ПРОЕКТ ЗАКРЫТ&#xa;Завершение жизненного цикла" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- СПЕЦИФИКА ПО ТИПАМ ПРОЕКТОВ -->
+        <mxCell id="project_specifics" value="СПЕЦИФИКА ПО ТИПАМ ПРОЕКТОВ:&#xa;&#xa;КОММЕРЧЕСКИЙ / ИМИДЖЕВЫЙ:&#xa;• Обязательно окончание договора&#xa;• Подписание закрывающих бухгалтерских документов&#xa;• Получение актов выполненных работ&#xa;• Подтверждение выполнения договорных обязательств&#xa;• Обязательные визы ДКК по качеству документации&#xa;&#xa;ВНУТРЕННИЙ / ИНВЕСТИЦИОННЫЙ:&#xa;• Договор не заключался (× - не применимо)&#xa;• При формировании НМА - защита на Техническом комитете&#xa;• Возможно создание объектов НМА&#xa;• Обязательные визы ДКК по качеству документации&#xa;&#xa;ОБЩИЕ ПРОЦЕССЫ ДЛЯ ВСЕХ ТИПОВ:&#xa;• Утверждение документов на закрытие проекта&#xa;• Получение виз ДКК по качеству документации&#xa;• Архивирование проекта в ИС УТЗ&#xa;• Выпуск приказа о закрытии проекта&#xa;• Сдача документации в архив предприятия&#xa;• Опциональное проектное премирование" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#666666;fontSize=9;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="320" height="320" as="geometry" />
+        </mxCell>
+        
+        <!-- ПАРАЛЛЕЛЬНЫЕ ПРОЦЕССЫ -->
+        <mxCell id="parallel_processes" value="ПАРАЛЛЕЛЬНЫЕ ПРОЦЕССЫ ЗАКРЫТИЯ:&#xa;&#xa;• Подготовка итоговой отчетной документации&#xa;• Финализация взаимодействия с заказчиком&#xa;• Закрытие всех задач в ИС УТЗ&#xa;• Передача результатов проекта заказчику&#xa;• Анализ уроков проекта (lessons learned)&#xa;• Освобождение ресурсов проекта&#xa;• Закрытие финансовых обязательств&#xa;• Оценка удовлетворенности заказчика" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#666666;fontSize=9;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="440" width="320" height="160" as="geometry" />
+        </mxCell>
+        
+        <!-- ДОКУМЕНТООБОРОТ -->
+        <mxCell id="document_flow" value="ДОКУМЕНТООБОРОТ ПРИ ЗАКРЫТИИ:&#xa;&#xa;• Согласование документов в СЭД&#xa;• Получение всех необходимых виз&#xa;• Утверждение куратором проекта&#xa;• Подписание приказа генеральным директором&#xa;• Размещение в узле проекта&#xa;• Передача в архив предприятия&#xa;• Сохранение электронных копий" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#666666;fontSize=9;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="320" height="140" as="geometry" />
+        </mxCell>
+        
+        <!-- ЛЕГЕНДА -->
+        <mxCell id="legend_title" value="ЛЕГЕНДА" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="780" width="80" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend_common" value="Общий процесс" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fac090;strokeColor=#FF6D01;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="820" width="120" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend_mandatory" value="Обязательный для типа" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="860" width="120" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend_optional" value="Опциональный процесс" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="900" width="120" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend_document" value="Документ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="940" width="120" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend_type" value="Тип проекта" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="980" width="120" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- СТРЕЛКИ -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="start" target="project_type_decision">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="180" as="sourcePoint" />
+            <mxPoint x="750" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow2" value="Коммерческий/&#xa;Имиджевый" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="project_type_decision" target="commercial_path">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="240" as="sourcePoint" />
+            <mxPoint x="370" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow3" value="Внутренний/&#xa;Инвестиционный" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="project_type_decision" target="internal_path">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="240" as="sourcePoint" />
+            <mxPoint x="1030" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="commercial_path" target="contract_completion">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="390" as="sourcePoint" />
+            <mxPoint x="420" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="internal_path" target="nma_decision">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="390" as="sourcePoint" />
+            <mxPoint x="1080" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow6" value="ДА" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nma_decision" target="tech_committee_defense">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="510" as="sourcePoint" />
+            <mxPoint x="1080" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow7" value="НЕТ" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nma_decision" target="merge_point">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="460" as="sourcePoint" />
+            <mxPoint x="720" y="705" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="460" />
+              <mxPoint x="850" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tech_committee_defense" target="merge_point">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="650" as="sourcePoint" />
+            <mxPoint x="720" y="705" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1030" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="contract_completion" target="merge_point">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="510" as="sourcePoint" />
+            <mxPoint x="700" y="705" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="merge_point" target="approve_closure_docs">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="720" as="sourcePoint" />
+            <mxPoint x="760" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="approve_closure_docs" target="closure_documents">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="830" as="sourcePoint" />
+            <mxPoint x="760" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="closure_documents" target="quality_visa">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="950" as="sourcePoint" />
+            <mxPoint x="760" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="quality_visa" target="archive_project">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="1070" as="sourcePoint" />
+            <mxPoint x="760" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="archive_project" target="closure_order">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="1190" as="sourcePoint" />
+            <mxPoint x="760" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="closure_order" target="archive_documents">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="1290" as="sourcePoint" />
+            <mxPoint x="760" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="archive_documents" target="project_bonus">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="1390" as="sourcePoint" />
+            <mxPoint x="760" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="project_bonus" target="end">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="1490" as="sourcePoint" />
+            <mxPoint x="760" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
